@@ -1,0 +1,263 @@
+            @font-face {
+                font-family: 'Yekan';
+                src: url('font/YekanWeb-Regular.eot');
+                src: url('font/YekanWeb-Regular.eot?#iefix') format('embedded-opentype'), url('font/YekanWeb-Regular.woff2') format('woff2'), url('font/YekanWeb-Regular.woff') format('woff'), url('font/YekanWeb-Regular.ttf') format('truetype'), url('font/YekanWeb-Regular.svg#YekanWeb-Regular') format('svg');
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+            }
+            
+            .bg-img {
+                background-color: #fff7f0;
+                background-image: url(../img/bg.jpg) !important;
+            }
+            
+            .bg-col {
+                background-color: #f7fff4;
+                padding: 28px;
+                border-top-left-radius: 65px;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 65px;
+                border-bottom-left-radius: 0px;
+            }
+            
+            .fyekan {
+                font-family: 'Yekan';
+                font-weight: 400;
+                font-style: normal;
+            }
+            
+            .nav-rtl {
+                float: right;
+                direction: rtl;
+                text-align: right;
+                margin-left: auto;
+                margin-right: 0px;
+                width: 400px !important;
+            }
+            
+            .logos {
+                width: 5%;
+            }
+            
+            .navbar {
+                border-bottom: 2px solid #e1e1e1;
+            }
+            
+            .btn-menu {
+                float: right;
+                direction: rtl;
+                margin-right: 0px;
+                margin-left: auto;
+                margin-top: -39px;
+            }
+            
+            .row-rtl {
+                direction: rtl;
+            }
+            
+            .text-rtl {
+                direction: rtl;
+                text-align: justify;
+            }
+            
+            .cardd {
+                display: table-cell !important;
+                box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+                transition: 0.5s;
+            }
+            
+            .cardd:hover {
+                box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.175) !important;
+            }
+            /*swiper*/
+            
+            .swiper {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }
+            
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            /* end swiper*/
+            
+            .form-control,
+            .form-rtl {
+                direction: rtl;
+                text-align: right;
+            }
+            
+            .ppro {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            
+            .prtl {
+                direction: rtl;
+                text-align: right;
+            }
+            
+            .crtl {
+                direction: rtl;
+                text-align: center;
+                line-height: 3;
+            }
+            
+            .clmargin {
+                margin-right: 20px;
+            }
+            
+            .bfloat {
+                float: left;
+            }
+            
+            .fbox {
+                border: 2px solid #e4e4e4;
+                padding: 25px;
+                border-radius: 20px 20px 0px 20px;
+                box-shadow: -4px 4px 8px #888;
+            }
+            
+            .ttable {
+                border-collapse: collapse;
+                width: 100%;
+                color: #17a2b8;
+                ;
+                font-size: 17px;
+                text-align: center;
+                direction: rtl;
+            }
+            
+            .tth {
+                background-color: #17a2b8;
+                ;
+                color: white;
+            }
+            
+            .rtable {
+                border-collapse: collapse;
+                width: 100%;
+                color: #ffc107;
+                ;
+                font-size: 17px;
+                text-align: center;
+                direction: rtl;
+            }
+            
+            .rth {
+                background-color: #ffc107;
+                ;
+                color: white;
+            }
+            
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            
+            .ctitle {
+                text-align: center;
+                padding: 10px;
+                margin-bottom: 20px;
+                color: #fff;
+                border-radius: 42px;
+                width: 307px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .gshadow {
+                box-shadow: 0px 6px 8px #ffc107;
+            }
+            
+            .ticketh3 {
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                color: #fff;
+                width: 300px;
+            }
+            
+            .zoom {
+                padding: 50px;
+                background-position: center;
+                transition: transform .7s;
+                height: 249px;
+                margin: 0 auto;
+            }
+            
+            .zoom:hover {
+                -ms-transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+            
+            .zoom h4 {
+                border: solid 1px black;
+                background: rgba(175, 227, 245, 0.623);
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                width: 103px;
+            }
+            
+            #zoom1 {
+                background-image: url(../img/istanbul-05.jpg);
+            }
+            
+            #zoom2 {
+                background-image: url(../img/22-min.jpg);
+            }
+            
+            #zoom3 {
+                background-image: url(../img/france-5_1__527052b478497e118da7a8964ab7aa13.jpg);
+            }
+            
+            #zoom4 {
+                background-image: url(../img/dubai2.jpg);
+            }
+            
+            #zoom5 {
+                background-image: url(../img/yerevan_2_.jpg);
+            }
+            
+            #zoom6 {
+                background-image: url(../img/spain-1_fa690238207a29792e1f0621b21f58ed.jpg);
+            }
+            
+            #zoom7 {
+                background-image: url(../img/mashhad-hotel-min.jpg);
+                background-repeat: no-repeat;
+            }
+            
+            #zoom8 {
+                background-image: url(../img/01_eaa3c8480d04507fbb0e97c29ab11cef-min.jpg);
+                background-repeat: no-repeat;
+            }
+            
+            #zoom9 {
+                background-image: url(../img/02_d3c740810266f5843eafa58eef2300f0-min.jpg);
+                background-repeat: no-repeat;
+            }
